@@ -1,0 +1,168 @@
+/* div {
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+} */
+
+.wd-text-input {
+    background-color: rgb(47, 51, 54);
+    color: white;
+    width: 70%;
+    height: 32px;
+    margin: 8px 16px;
+    padding-left: 55px;
+    border: none;
+    border-radius: 20px;
+    background-image: url("https://img.icons8.com/ios-glyphs/20/EBEBEB/search--v1.png");
+    background-repeat: no-repeat;
+    background-position: 20px 8px;
+    float: left;
+}
+
+.wd-explore-settings {
+    float: right;
+    margin: 13px 12px;
+}
+
+.wd-explore-nav {
+    padding: 16px;
+    text-align: center;
+    font-weight:bold;
+}
+ 
+.wd-explore-nav-link {
+    margin-right:8%;
+    color: rgb(110, 118, 125);
+    font-size: 15px;
+    text-decoration: none;
+}
+
+a#highlighted {
+    margin-right:8%;
+    color: rgb(29,161,242);
+    font-size: 15px;
+    padding-bottom:13px;
+    text-decoration: none;
+    border-bottom: 3px solid rgb(29,161,242);
+}
+
+.wd-gray-box{
+    background-color: rgb(47, 51, 54);
+    height: 10px;
+    border: 1px solid rgb(110, 118, 125);
+}
+
+.wd-black-box{
+    height: 20px;
+    margin-right: 16px;
+}
+
+.wd-suggested-post-1{
+    height: 95px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+    color: white;
+}
+
+.wd-suggested-post-content{
+    margin-right:16px;
+    margin-left:16px;
+}
+
+p#top-text {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size:13px;
+    color: rgb(110, 118, 125);
+    float: left;
+    width:90%;
+}
+
+p#top-text-2 {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size:13px;
+    color: rgb(110, 118, 125);
+    float: left;
+}
+
+p#top-text-2 {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size:13px;
+    color: rgb(110, 118, 125);
+}
+
+img#wd-more-main {
+    float:right;
+    height:20px;
+    object-fit: cover;
+}
+
+.wd-more {
+    float:right;
+    margin-top:5px;
+}
+
+p#bot-text {
+    margin-top: 6px;
+    font-size:13px;
+    margin-bottom: 10px;
+    color: rgb(110, 118, 125);
+}
+
+h4#title{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width:440px;
+}
+
+h4#user{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.wd-suggested-post-2{
+    height: 130px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+    color: white;
+}
+
+h4#top-text {
+    margin-top: 10px;
+    font-size: 14px;
+    margin-bottom: 3px;
+    color: white;
+    float: left;
+    margin-right: 4px;
+}
+
+img#verify {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    float: left;
+    margin-right: 4px;
+}
+
+img#profile {
+    margin-top: 10px;
+    margin-bottom: 3px;
+    float: left;
+    margin-right: 4px;
+    width:20px;
+}
+
+.wd-suggested-post-content-2{
+    margin-left:16px;
+    float:left;
+    width: 75%;
+}
+
+img#post-image {
+    margin: 16px;
+    float: right;
+    width:100px;
+    height:100px;
+    border-radius:20px;
+    object-fit: cover;
+}
+ 
+ 
