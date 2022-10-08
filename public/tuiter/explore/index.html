@@ -3,110 +3,319 @@
 <head>
    <meta charset="UTF-8">
    <title>Tuiter Explore</title>
-   <!-- <style>
-        p {
-            background-color: blue;
-            color: white;
-        }
-    </style> -->
+   <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+          rel="stylesheet"/>
     <link href="../styles.css" rel="stylesheet"/>
     <link href="index.css" rel="stylesheet"/>
 </head>
 <body>
-    <div>
-        <input class="wd-text-input" type="text" id="Name"
-        placeholder="Search Tuiter"/>
-        <!-- <a target="_blank" href="https://icons8.com/icon/364/settings"></a> -->
-        <a class="wd-explore-settings" href="explore-settings.html">
-            <img src="https://img.icons8.com/ios/22/22C3E6/settings--v1.png"/>
-        </a>
-        <div class="wd-float-done"></div>
-    </div>
-    <nav class="wd-explore-nav">
-        <a id="highlighted" href="index.html">For you</a>
-        <a class="wd-explore-nav-link" href="index.html">Trending</a>
-        <a class="wd-explore-nav-link" href="index.html">Covid-19</a>
-        <a class="wd-explore-nav-link" href="index.html">News</a>
-        <a class="wd-explore-nav-link" href="index.html">Entertainment</a>
-    </nav>   
-    <div class="wd-gray-box"></div>
-    <div class="wd-black-box">
-        <a target="_blank" href="https://icons8.com/icon/61873/more"></a>
-        <img id="wd-more-main" src="https://img.icons8.com/ios-glyphs/20/FFFFFF/more.png"/>
-        <div class="wd-float-done"></div>
-    </div>
-    <div class="wd-suggested-post-1">
-        <div class="wd-suggested-post-content">
-            <div>
-                <p id="top-text">Trending in Science</p>
-                <a target="_blank" href="https://icons8.com/icon/61873/more"></a>
-                <img class="wd-more" src="https://img.icons8.com/ios-glyphs/20/737373/more.png"/>
-                <div class="wd-float-done"></div>
+    <div class="d-block d-sm-none fa-2x">XS</div>
+    <div class="d-none d-sm-block d-md-none fa-2x">S</div>
+    <div class="d-none d-md-block d-lg-none fa-2x">M</div>
+    <div class="d-none d-lg-block d-xl-none fa-2x">L</div>
+    <div class="d-none d-xl-block d-xxl-none fa-2x">XL</div>
+    <div class="d-none d-xxl-block fa-2x">XXL</div>
+    <div class="container pt-1">
+        <div class="row">
+            <div class="col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xzl-2">
+                <div class="list-group mb-1">
+                    <a href="#"
+                       class="list-group-item list-group-item-action">
+                       <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action">
+                       <i class="fa-solid fa-house-chimney d-inline"></i>
+                       <p class="d-none d-xl-inline d-xxl-inline">Home</p>
+                    </a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action active">
+                       <i class="fa-solid fa-hashtag d-inline"></i>
+                       <p class="d-none d-xl-inline d-xxl-inline">Explore</p>
+                    </a>
+                    <a href="https://en.wikipedia.org/wiki/The_Forever_War"
+                       class="list-group-item list-group-item-action">
+                       <i class="fa-solid fa-bell d-inline"></i>
+                       <p class="d-none d-xl-inline d-xxl-inline">Notifications</p>
+                    </a>
+                    <a href="https://en.wikipedia.org/wiki/2001:_A_Space_Odyssey_(novel)"
+                       class="list-group-item list-group-item-action">
+                       <i class="fa-solid fa-envelope d-inline"></i>
+                       <p class="d-none d-xl-inline d-xxl-inline">Messages</p>
+                    </a>
+                    <a href="https://en.wikipedia.org/wiki/Ender%27s_Game"
+                       class="list-group-item list-group-item-action">
+                       <i class="fa-solid fa-bookmark d-inline"></i>
+                       <p class="d-none d-xl-inline d-xxl-inline">Bookmarks</p>
+                    </a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action">
+                       <i class="fa-solid fa-bookmark d-inline"></i>
+                       <p class="d-none d-xl-inline d-xxl-inline">Lists</p>
+                    </a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action">
+                       <i class="fa-solid fa-user d-inline"></i>
+                       <p class="d-none d-xl-inline d-xxl-inline">Profile</p>
+                    </a>
+                    <a href="#"
+                       class="list-group-item list-group-item-action">
+                       <i class="fa-solid fa-circle-ellipsis d-inline"></i>
+                       <p class="d-none d-xl-inline d-xxl-inline">More</p>
+                    </a>
+                    <button class="btn btn-primary mt-1 rounded-pill ps-0 pe-0" width="100px">
+                        Tweet
+                    </button>
+                </div>
             </div>
-            <h4 id="title">#Chemicals</h4>
-            <p id="bot-text">123.4K Tweets</p>
-        </div>
-    </div>
-    <div class="wd-suggested-post-1">
-        <div class="wd-suggested-post-content">
-            <div>
-                <p id="top-text">Sports · Trending</p>
-                <a target="_blank" href="https://icons8.com/icon/61873/more"></a>
-                <img class="wd-more" src="https://img.icons8.com/ios-glyphs/20/737373/more.png"/>
-                <div class="wd-float-done"></div>
+            <div class="col-6 col-sm-10 col-md-10 col-lg-6 col-xl-6 col-xzl-6">
+                <div class="row mb-2">
+                    <div class="col-11">
+                        <i class="fa-solid fa-magnifying-glass wd-search-icon position-absolute"></i>
+                        <input class="wd-text-input ps-5 form-control rounded-pill" type="text" id="Name"
+                        placeholder="Search Twitter"/>
+                    </div>
+                    <a class="col-1 wd-explore-settings" href="explore-settings.html">
+                        <i class="fa-solid fa-gear" style="font-size: 1.6em"></i>
+                    </a>
+                </div>
+                <ul class="nav nav-tabs mt-1 mb-2">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            For You
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            Trending
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            News
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" tabindex="-1">
+                            Sports
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pe-0 d-sm-none d-md-block" href="#" tabindex="-1">
+                            Entertainment
+                        </a>
+                    </li>
+                </ul>
+                <div class="position-relative">
+                    <img src="https://techcrunch.com/wp-content/uploads/2019/09/Starship-Mk1-Day.jpg" width="100%"/>
+                    <h1 class="position-absolute bottom-0 left-0 ps-2 text-white">SpaceX's Starship</h1>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="text-secondary">
+                                    Web Development
+                                </div>
+                                <div>
+                                    <div class= "fw-bolder" style="float:left"> ReactJS </div>
+                                    <i class="fa-solid fa-circle-check pt-1 ps-1 pe-1" style="float:left"></i>
+                                    <div class="text-secondary" style="float:left"> - 2h </div>
+                                    <div class="wd-float-done"></div>
+                                </div>
+                                <div class="fw-bolder">
+                                    React.js is a component based front end library that makes it very easy to build single page Applications or SPAs
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <img class="float-end rounded" src="https://cdn1.iconfinder.com/data/icons/soleicons-line-vol-1/64/reactjs_javascript_library_atom_atomic_react-512.png" height="100px">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-9">
+                                <div>
+                                    <div class= "fw-bolder" style="float:left"> JavaScript </div>
+                                    <i class="fa-solid fa-circle-check pt-1 ps-1 pe-1" style="float:left"></i>
+                                    <div class="text-secondary" style="float:left"> - 2h </div>
+                                    <div class="wd-float-done"></div>
+                                </div>
+                                <div class="fw-bolder">
+                                    Javascript is a programming language that can run on browsers as well as desktops
+                                </div>
+                                <div class="text-secondary">
+                                    123K Tweets
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <img class="float-end rounded" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/2048px-Unofficial_JavaScript_logo_2.svg.png" height="100px">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="text-secondary">
+                                    Web Development
+                                </div>
+                                <div class="fw-bolder">
+                                    jQuery
+                                </div>
+                                <div class="text-secondary">
+                                    123K Tweets
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <img class="float-end rounded" src="https://www.wpfaster.org/wp-content/uploads/2013/06/jquery-logo.png" height="100px">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-9">
+                                <div class="text-secondary">
+                                    Web Development
+                                </div>
+                                <div>
+                                    <div class= "fw-bolder" style="float:left"> NodeJS </div>
+                                    <i class="fa-solid fa-circle-check pt-1 ps-1 pe-1" style="float:left"></i>
+                                    <div class="text-secondary" style="float:left"> - 2h </div>
+                                    <div class="wd-float-done"></div>
+                                </div>
+                                <div class="text-secondary">
+                                    123K Tweets
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <img class="float-end rounded" src="https://i0.wp.com/phocode.com/wp-content/uploads/2016/09/nodejsLogo.png?fit=300%2C300&ssl=1" height="100px">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <h4 id="title">World Cup</h4>
-            <p id="bot-text">5,000 Tweets</p>
-        </div>
-    </div>
-    <div class="wd-suggested-post-2">
-        <div class="wd-suggested-post-content-2">
-            <div>
-                <img id="profile" src="https://play-lh.googleusercontent.com/gfmioo4VBEtPucdVNIYAyaqruXFRWDCc0nsBLORfOS0_s9r5r00Bn_IpjhCumkEusg"/>
-                <h4 id="top-text">The New York Times</h4>
-                <a target="_blank" href="https://icons8.com/icon/59733/approval"></a>
-                <img id="verify" src="https://img.icons8.com/ios-glyphs/18/FFFFFF/verified-account--v1.png/">
-                <p id="top-text-2">· Today</p>
-                <div class="wd-float-done"></div>
+            <div class="col-4 d-none d-lg-block d-xl-block d-xxl-block">
+                <ul class="list-group">
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="fw-bolder">
+                                Who to follow
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item ps-4 pe-4">
+                        <div class="row" style="height: 50px;">
+                            <div class="col-2 ps-0 pe-0">
+                                <img class="float-end rounded" src="https://billpay.slu.edu/C20197_ustores/web/uploaded_images/store_65/JAVA.jpg" height="50px">
+                            </div>
+                            <div class="col-7 pe-0">
+                                <div>
+                                    <div class= "fw-bolder" style="float:left"> Java </div>
+                                    <i class="fa-solid fa-circle-check pt-1 ps-1 pe-1" style="float:left"></i>
+                                    <div class="wd-float-done"></div>
+                                    <div class="text-secondary">
+                                        @Java
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 ps-0 pe-0">
+                                <button class="btn btn-primary mt-1 rounded-pill">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item ps-4 pe-4">
+                        <div class="row" style="height: 50px;">
+                            <div class="col-2 ps-0 pe-0">
+                                <img class="float-end rounded-circle" src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/j3dbh6kok0dket3uz2vy" height="50px">
+                            </div>
+                            <div class="col-7 pe-0">
+                                <div>
+                                    <div class= "fw-bolder" style="float:left"> Relativity Space </div>
+                                    <i class="fa-solid fa-circle-check pt-1 ps-1 pe-1" style="float:left"></i>
+                                    <div class="wd-float-done"></div>
+                                    <div class="text-secondary">
+                                        @relativityspace
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 ps-0 pe-0">
+                                <button class="btn btn-primary mt-1 rounded-pill">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item ps-4 pe-4">
+                        <div class="row" style="height: 50px;">
+                            <div class="col-2 ps-0 pe-0">
+                                <img class="float-end rounded-circle" src="https://brandlogos.net/wp-content/uploads/2013/06/virgin-group-vector-logo.png" height="50px">
+                            </div>
+                            <div class="col-7 pe-0">
+                                <div>
+                                    <div class= "fw-bolder" style="float:left"> Virgin Galactic </div>
+                                    <i class="fa-solid fa-circle-check pt-1 ps-1 pe-1" style="float:left"></i>
+                                    <div class="wd-float-done"></div>
+                                    <div class="text-secondary">
+                                        @virgingalactic
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 ps-0 pe-0">
+                                <button class="btn btn-primary mt-1 rounded-pill">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item ps-4 pe-4">
+                        <div class="row" style="height: 50px;">
+                            <div class="col-2 ps-0 pe-0">
+                                <img class="float-end rounded-circle" src="https://yt3.ggpht.com/ytc/AMLnZu-6OoK1vqefumQnIGPodyy48E9d5QRs1p2AyPRx67g=s900-c-k-c0x00ffffff-no-rj" height="50px">
+                            </div>
+                            <div class="col-7 pe-0">
+                                <div>
+                                    <div class= "fw-bolder" style="float:left"> NASA </div>
+                                    <i class="fa-solid fa-circle-check pt-1 ps-1 pe-1" style="float:left"></i>
+                                    <div class="wd-float-done"></div>
+                                    <div class="text-secondary">
+                                        @NASA
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 ps-0 pe-0">
+                                <button class="btn btn-primary mt-1 rounded-pill">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item ps-4 pe-4">
+                        <div class="row" style="height: 50px;">
+                            <div class="col-2 ps-0 pe-0">
+                                <img class="float-end rounded-circle" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwZG5khY-oVgFbGTVam3C--6QFzHkSidcwv4OybzWARFXugi9LbjlqvHI7_GxQHHocnLE&usqp=CAU" height="50px">
+                            </div>
+                            <div class="col-7 pe-0">
+                                <div>
+                                    <div class= "fw-bolder" style="float:left"> Tesla </div>
+                                    <i class="fa-solid fa-circle-check pt-1 ps-1 pe-1" style="float:left"></i>
+                                    <div class="wd-float-done"></div>
+                                    <div class="text-secondary">
+                                        @Tesla
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 ps-0 pe-0">
+                                <button class="btn btn-primary mt-1 rounded-pill">
+                                    Follow
+                                </button>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <h4 id="title">PM Update: Showers and cool weather continue for Monday</h4>
-        </div>
-        <img id="post-image" src="https://i2-prod.manchestereveningnews.co.uk/incoming/article21337611.ece/ALTERNATES/s1200c/1_Wet-weather-on-August-15-2021.jpg"/>
-        <div class="wd-float-done"></div>
-    </div>
-    <div class="wd-suggested-post-2">
-        <div class="wd-suggested-post-content-2">
-            <p id="top-text">NFL · LIVE</p>
-            <h4 id="title">2022 NFL season, Week 4: What We Learned from Sunday's games</h4>
-        </div>
-        <img id="post-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTiz7CcbVLUh1RtGb112aqX3FuDtxXJRG4kg&usqp=CAU"/>
-        <div class="wd-float-done"></div>
-    </div>
-    <div class="wd-suggested-post-2">
-        <div class="wd-suggested-post-content-2">
-            <div>
-                <img id="profile" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTz7lsCJUZyw9Y6opuRRhK70MvR3J39FUdH1Q&usqp=CAU"/>
-                <h4 id="top-text">NBC News</h4>
-                <a target="_blank" href="https://icons8.com/icon/59733/approval"></a>
-                <img id="verify" src="https://img.icons8.com/ios-glyphs/18/FFFFFF/verified-account--v1.png/">
-                <p id="top-text-2">· Yesterday</p>
-                <div class="wd-float-done"></div>
-            </div>
-            <h4 id="title">Ian slows down as death toll from hurricane grows in Florida</h4>
-        </div>
-        <img id="post-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf6Of3YgpILkj35AL6RznbUOzBqM8kqWLJBw&usqp=CAU"/>
-        <div class="wd-float-done"></div>
-    </div>
-    <div class="wd-suggested-post-1">
-        <div class="wd-suggested-post-content">
-            <div>
-                <p id="top-text">Trending in United States</p>
-                <a target="_blank" href="https://icons8.com/icon/61873/more"></a>
-                <img class="wd-more" src="https://img.icons8.com/ios-glyphs/20/737373/more.png"/>
-                <div class="wd-float-done"></div>
-            </div>
-            <h4 id="title">Paris Fashion Week</h4>
-            <p id="bot-text">6,789 Tweets</p>
         </div>
     </div>
 </body>
