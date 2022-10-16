@@ -1,12 +1,4 @@
-/* div {
-    border-style: solid;
-    border-color: rgb(47, 51, 54);
-} */
-
 .wd-text-input {
-    /* background-color: white(47, 51, 54);
-    color: rgb(110, 118, 125);
-    border: 1px solid rgb(110, 118, 125); */
     height: 32px;
     margin-top: 8px;
     padding-left: 55px;
@@ -17,137 +9,11 @@
     margin-top: 12px;
 }
 
-.wd-suggested-post-1{
-    height: 95px;
-    border-bottom: 1px solid rgb(47, 51, 54);
-    color: white;
-}
-
-.wd-suggested-post-content{
-    margin-right:16px;
-    margin-left:16px;
-}
-
-p#top-text {
-    margin-top: 10px;
-    margin-bottom: 3px;
-    font-size:13px;
-    color: rgb(110, 118, 125);
-    float: left;
-    width:90%;
-}
-
-p#top-text-2 {
-    margin-top: 10px;
-    margin-bottom: 3px;
-    font-size:13px;
-    color: rgb(110, 118, 125);
-    float: left;
-}
-
-p#top-text-2 {
-    margin-top: 10px;
-    margin-bottom: 3px;
-    font-size:13px;
-    color: rgb(110, 118, 125);
-}
-
-img#wd-more-main {
-    float:right;
-    height:20px;
-    object-fit: cover;
-}
-
-.wd-more {
-    float:right;
-    margin-top:5px;
-}
-
-p#bot-text {
-    margin-top: 6px;
-    font-size:13px;
-    margin-bottom: 10px;
-    color: rgb(110, 118, 125);
-}
-
-h4#title{
-    margin-top: 3px;
-    margin-bottom: 3px;
-    width:440px;
-}
-
-h4#user{
-    margin-top: 3px;
-    margin-bottom: 3px;
-}
-
-.wd-suggested-post-2{
-    height: 130px;
-    border-bottom: 1px solid rgb(47, 51, 54);
-    color: white;
-}
-
-h4#top-text {
-    margin-top: 10px;
-    font-size: 14px;
-    margin-bottom: 3px;
-    color: white;
-    float: left;
-    margin-right: 4px;
-}
-
-img#verify {
-    margin-top: 10px;
-    margin-bottom: 3px;
-    float: left;
-    margin-right: 4px;
-}
-
-img#profile {
-    margin-top: 10px;
-    margin-bottom: 3px;
-    float: left;
-    margin-right: 4px;
-    width:20px;
-}
-
-.wd-suggested-post-content-2{
-    margin-left:16px;
-    float:left;
-    width: 75%;
-}
-
-img#post-image {
-    margin: 16px;
-    float: right;
-    width:100px;
-    height:100px;
-    border-radius:20px;
-    object-fit: cover;
-}
-
-.wd-top-bar i {
-    position: absolute;
-}
-
 .wd-search-icon {
     padding: 15px;
     min-width: 50px;
     text-align: center;
 }
 
-.wd-nav-tabs {
-    width: 100%;
-    color: rgb(29,161,242);
-    padding: 0px;
-}
 
-.wd-nav-tabs li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-.wd-nav-tabs .wd-selected {
-    border-bottom: solid 4px rgb(29,161,242);
-}
  
