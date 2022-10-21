@@ -1,21 +1,33 @@
 [
     {
-      "_id": 123,
+      "_id": 1,
       "userName": "NASA",
-      "handle": "NASA",
+      "handle": "nasa",
       "avatarIcon": "https://cdn.mos.cms.futurecdn.net/baYs9AuHxx9QXeYBiMvSLU.jpg"
     },
     {
-      "_id": 234,
+      "_id": 2,
       "userName": "Tesla",
       "handle": "tesla",
       "avatarIcon": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/12f213e1-t1.jpg"
     },
     {
-      "_id": 345,
+      "_id": 3,
       "userName": "SpaceX",
-      "handle": "SpaceX",
+      "handle": "spaceX",
       "avatarIcon": "https://pbs.twimg.com/profile_images/1082744382585856001/rH_k3PtQ_400x400.jpg"
+    },
+    {
+      "_id": 4,
+      "userName": "Java",
+      "handle": "java",
+      "avatarIcon": "https://i.pinimg.com/originals/79/5e/bb/795ebb5f4a470cd7242136237f61fc53.png"
+    },
+    {
+      "_id": 5,
+      "userName": "Virgin Galactic",
+      "handle": "virgingalactic",
+      "avatarIcon": "https://goodlogo.com/images/logos/virgin_logo_2387.gif"
     }
    ]
    
