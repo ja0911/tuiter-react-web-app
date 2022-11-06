@@ -1,4 +1,4 @@
 [[redirects]]
-    from = "/*"
-    to = "/src/tuiter"
+    from = "/tuiter/*"
+    to = "/tuiter"
     status = 200
