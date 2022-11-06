@@ -16,7 +16,7 @@ const store = configureStore(
     posts: postsReducer}});
 
 function Tuiter() {
-  let { pathname } = useLocation();
+  let { location } = useLocation();
   const renderSwitch = path => {
     switch(path) {
       case '/tuiter/explore':
@@ -34,7 +34,7 @@ function Tuiter() {
           </div>
           <div className="col-10 col-md-10 col-lg-7 col-xl-6"
               style={{"position": "relative"}}>
-            {renderSwitch(pathname)}
+            {renderSwitch(location)}
           </div>
           <div className="d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4">
             <WhoToFollowList/>

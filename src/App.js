@@ -3,18 +3,21 @@ import HelloWorld from "./labs/a6/hello-world";
 import Tuiter from "./tuiter";
 import {BrowserRouter} from "react-router-dom";
 import {Routes, Route} from "react-router";
+import {RemoveTrailingSlash} from "./RemoveTrailingSlash.tsx";
 
 function App() {
   return (
     <BrowserRouter>
       <div className="container">
+      <RemoveTrailingSlash/>
       <Routes>
           <Route path="/*" 
                  element={<Labs/>}/>
           <Route path="/hello"
                  element={<HelloWorld/>}/>
-          <Route path="/tuiter/*"
+          <Route exact path="/tuiter"
                  element={<Tuiter/>}/>
+          <Route path="/tuiter/explore" element={<Tuiter/>} />
         </Routes>
       </div>
     </BrowserRouter>
