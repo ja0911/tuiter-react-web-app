@@ -20,7 +20,7 @@ const NavigationSidebar = (
       <i className="bi bi-house-fill"></i>
       <p className="d-none d-xl-inline d-xxl-inline">  Home</p>
      </Link>
-     <Link to="/tuiter/e"
+     <Link to="/tuiter/explore"
         onClick={() => {toggle('explore')}}
         className={`list-group-item
                     ${activeTab === 'explore'?'active':''}`}>

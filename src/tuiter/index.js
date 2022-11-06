@@ -19,7 +19,7 @@ function Tuiter() {
   let { pathname } = useLocation();
   const renderSwitch = path => {
     switch(path) {
-      case '/tuiter/e':
+      case '/tuiter/explore':
         return <ExploreComponent/>;
       default:
         return <HomeComponent/>;
