@@ -7,9 +7,11 @@
     "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
     "image": "https://pbs.twimg.com/profile_images/1082744382585856001/rH_k3PtQ_400x400.jpg",
     "liked": true,
+    "disliked": true,
     "replies": 123,
     "retuits": 432,
     "likes": 2345,
+    "dislikes": 30,
     "handle": "@spacex",
     "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
   },
@@ -21,9 +23,11 @@
     "title": "New Shepard Mission NS-23 Updates",
     "image": "https://static-cdn.jtvnw.net/jtv_user_pictures/blueorigin-profile_image-47903608fd0c4176-300x300.png",
     "liked": false,
+    "disliked": false,
     "replies": 42,
     "retuits": 105,
     "likes": 999,
+    "dislikes": 200,
     "handle": "@blueorigin",
     "tuit": "During today’s flight, the capsule escape system successfully separated the capsule from the booster. The booster impacted the ground. There are no reported injuries; all personnel have been accounted for."
   },
@@ -35,9 +39,11 @@
     "title": "The Tesla Roadster Is Not Even On Sale Yet It’s The Most Popular Electric Supercar Online",
     "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/12f213e1-t1.jpg",
     "liked": true,
+    "disliked": true,
     "replies": 345,
     "retuits": 321,
     "likes": 890,
+    "dislikes": 123,
     "handle": "@tesla",
     "tuit": "Zero-emission supercars and hypercars are already a thing, with more and more exotic vehicles adopting a fully electric powertrain. But what has the internet to say about them? A new study reveals the most popular EV supercars online, with the Tesla Roadster comfortably sitting on the top spot despite the numerous delays in the debut of its final production version."
   }]
