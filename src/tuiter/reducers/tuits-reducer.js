@@ -74,7 +74,7 @@ const tuitsSlice = createSlice({
      state.unshift({
        ...action.payload,
        ...templateTuit,
-       _id: (new Date()).getTime(),
+       _id: (new Date()).getTime()+'',
      })
    }
  }

@@ -8,14 +8,17 @@ const WhatsHappening = () => {
  const dispatch = useDispatch();
  const tuitClickHandler = () => {
     const newTuit = {
-        tuit: whatsHappening
+        userName: 'NASA',
+        tuit: whatsHappening,
+        handle: "@nasa",
+        image:"https://cdn.mos.cms.futurecdn.net/baYs9AuHxx9QXeYBiMvSLU.jpg",
       }
       dispatch(createTuitThunk(newTuit));
  }
  return (
    <div className="row">
      <div className="col-auto pe-0">
-       <img className="rounded-circle" style={{objectFit:"cover"}} src="https://cdn.mos.cms.futurecdn.net/baYs9AuHxx9QXeYBiMvSLU.jpg" width={45} height={45}/>
+       <img className="rounded-circle" alt="profile" style={{objectFit:"cover"}} src="https://cdn.mos.cms.futurecdn.net/baYs9AuHxx9QXeYBiMvSLU.jpg" width={45} height={45}/>
      </div>
      <div className="col-10">
        <textarea value={whatsHappening} placeholder="What's happening?"
