@@ -30,20 +30,4 @@
     "dislikes": 200,
     "handle": "@blueorigin",
     "tuit": "During today’s flight, the capsule escape system successfully separated the capsule from the booster. The booster impacted the ground. There are no reported injuries; all personnel have been accounted for."
-  },
-  {
-    "_id": 3,
-    "topic": "Cars",
-    "userName": "Tesla",
-    "time": "2h",
-    "title": "The Tesla Roadster Is Not Even On Sale Yet It’s The Most Popular Electric Supercar Online",
-    "image": "https://storage.googleapis.com/webdesignledger.pub.network/WDL/12f213e1-t1.jpg",
-    "liked": true,
-    "disliked": true,
-    "replies": 345,
-    "retuits": 321,
-    "likes": 890,
-    "dislikes": 123,
-    "handle": "@tesla",
-    "tuit": "Zero-emission supercars and hypercars are already a thing, with more and more exotic vehicles adopting a fully electric powertrain. But what has the internet to say about them? A new study reveals the most popular EV supercars online, with the Tesla Roadster comfortably sitting on the top spot despite the numerous delays in the debut of its final production version."
   }]
